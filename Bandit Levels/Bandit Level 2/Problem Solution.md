@@ -9,7 +9,7 @@ The "./" means the current directory which will bypass the fact that the filenam
 cat command as usual.
 
 ## Password 
-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ## Lesson Learnt
 Using ./ is vital when accessing files with unusual file names (eg special characters).
