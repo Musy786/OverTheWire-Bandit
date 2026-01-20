@@ -3,8 +3,8 @@ Read the file that has three properties: owned by the user bandit7, owned by gro
 and 33 bytes in size. This file can be anywhere on the server
 
 ## Solution 
-find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
-cat ./var/lib/dpkg/info/bandit7.password
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null  
+cat ./var/lib/dpkg/info/bandit7.password  
 
 ## Explanation 
 A single line was able to be used as we are going through all files from the route of the server using the 
