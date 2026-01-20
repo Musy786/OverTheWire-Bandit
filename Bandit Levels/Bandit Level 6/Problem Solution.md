@@ -3,9 +3,9 @@ Read a file that has three properties: human-readable, 1033 bytes in size, and n
 the inhere directory along with numerous other files.
 
 ## Solution 
-cd inhere
-find . -type f -size 1033c ! -executable
-cat maybehere07/.file2
+cd inhere  
+find . -type f -size 1033c ! -executable  
+cat maybehere07/.file2  
 
 ## Explanation 
 Using the "find" command allows us to filter out the files using the set properties of the target file.
