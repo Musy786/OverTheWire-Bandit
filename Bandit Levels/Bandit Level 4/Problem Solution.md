@@ -2,9 +2,9 @@
 Read a hidden file that is in the inhere directory.
 
 ## Solution 
-cd inhere
-ls -a
-cat ...Hiding-From-You
+cd inhere  
+ls -a  
+cat ...Hiding-From-You  
 
 ## Explanation 
 The "ls -a" allows us to view all files that are in the current directory including hidden files that are normally not
