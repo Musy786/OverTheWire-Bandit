@@ -2,12 +2,12 @@
 Use the sshkey.private to access the next level.
 
 ## Solution 
-cat sshkey.private
-touch test.txt
-echo "(Insert Contents of the sshkey.private here)" > test.txt
-ls -la
-chmod 600 test.txt
-ssh -i test.txt bandit13@bandit.labs.overthewire.org -p 2220
+cat sshkey.private  
+touch test.txt  
+echo "(Insert Contents of the sshkey.private here)" > test.txt  
+ls -la  
+chmod 600 test.txt  
+ssh -i test.txt bandit13@bandit.labs.overthewire.org -p 2220  
 
 ## Explanation 
 First, we need to copy the sshkey.private and then exit out of the level. Now from here, we create a new file and echo in the key we just copied.  
