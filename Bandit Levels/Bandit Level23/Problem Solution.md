@@ -1,5 +1,5 @@
 ## Problem
-
+Look into cron script that is being run and look at what needs to be done to get to the next level.  
 
 ## Solution
 cat /etc/cron.d/cronjob_bandit23  
