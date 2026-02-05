@@ -25,7 +25,7 @@ Now we can re-maximise the terminal.
   
 :set shell=/bin/bash  
 :shell  
-cat /etc/bandit\_pass/bandit26  
+cat /etc/bandit`\`_pass/bandit26  
 
 ## Explanation
 First, as the shell for the next level is different, we can just check the `passwd` file and grep the bandit26 shell. We get `/usr/bin/showtext`.  
@@ -39,7 +39,9 @@ Now, that we are in vim, we can set the shell using the `:set` command, to our d
 With the bandit26 permissions, we can just access the password file.  
 
 ## Password
-This level could not be accessed as I used the killercoda environment so minimising the screen is not possible unfortunately.  
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ    
 
 ## Lesson Learnt
 The shell is crucial for accessing servers, as if configured differently, can wildly alter the server.  
+  
+Credit for online solution: https://mayadevbe.me/posts/overthewire/bandit/level26/
